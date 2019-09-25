@@ -1,0 +1,5 @@
+spring.cloud.stream.kafka.binder.brokers=localhost:9092
+spring.cloud.stream.bindings.in-msg.destination=test_topic
+spring.cloud.stream.bindings.in-msg.contentType=application/json
+spring.cloud.stream.bindings.out-msg.destination=test_topic
+spring.cloud.stream.bindings.out-msg.contentType=application/json
