@@ -9,5 +9,7 @@ First we need to start the consul agent in your system. To run the consul agent 
 
 consul agent -dev -bind=127.0.0.1
 
+To open the Consul UI use the URL: http://127.0.0.1:8500/ui/dc1/services
+
 ### Important Links
 https://www.consul.io/
